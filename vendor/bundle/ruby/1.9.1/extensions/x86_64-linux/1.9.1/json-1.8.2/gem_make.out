@@ -1,0 +1,10 @@
+/usr/bin/ruby1.9.1 -r ./siteconf20150519-2953-1clhra5.rb extconf.rb
+creating Makefile
+
+make  clean
+
+make
+make: `all' に対して行うべき事はありません.
+
+make  install
+installing default libraries

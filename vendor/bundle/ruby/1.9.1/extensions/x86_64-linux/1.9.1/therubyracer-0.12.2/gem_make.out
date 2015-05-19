@@ -1,0 +1,40 @@
+/usr/bin/ruby1.9.1 -r ./siteconf20150519-2953-qx1ght.rb extconf.rb
+checking for main() in -lpthread... yes
+creating Makefile
+
+make  clean
+
+make
+compiling primitive.cc
+compiling context.cc
+compiling handles.cc
+compiling value.cc
+compiling backref.cc
+compiling stack.cc
+compiling heap.cc
+compiling object.cc
+compiling function.cc
+compiling rr.cc
+compiling constants.cc
+compiling array.cc
+compiling template.cc
+compiling v8.cc
+compiling external.cc
+compiling trycatch.cc
+compiling gc.cc
+compiling accessor.cc
+compiling message.cc
+compiling invocation.cc
+compiling init.cc
+compiling date.cc
+compiling constraints.cc
+compiling script.cc
+compiling locker.cc
+compiling string.cc
+compiling signature.cc
+compiling exception.cc
+linking shared-object v8/init.so
+
+make  install
+/usr/bin/install -c -m 0755 init.so .gem.20150519-2953-pi983m/v8
+installing default init libraries
